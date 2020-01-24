@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .con {
+            background-color: #7f8c8d;
+            height: 100vh;
+        }
+        .col {
+            background-color: turquoise;
+            /* height: 25vh; */
+        }
+        
+        .col1 {
+            background-color: #2ecc71;
+            /* height: 25vh; */
+        }
+        
+        .col2 {
+            background-color: #3498db;
+            /* height: 25vh; */
+        }
+        .rowHeight {
+            background-color: black;
+            height: 40vh;
+            border: 2px dotted white;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="container con">
+        <div class="row">
+            <div class="col text-center">
+                <h3>Align-Items</h3>
+            </div>
+        </div>
+        <div class="row rowHeight align-items-center">
+            <div class="col col al">Column</div>
+            <div class="col col1">Column</div>
+            <div class="col col2">Column</div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <h3>Align-Self</h3>
+            </div>
+        </div>
+        <div class="row rowHeight">
+            <div class="col col align-self-start">Step 1</div>
+            <div class="col col1 align-self-center">Step 2</div>
+            <div class="col col2 align-self-end">Step 3</div>
+        </div>
+    </div>
+
+      
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+    <!-- tether cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.js"></script>
+    <!-- Bootstrap min js cdn -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

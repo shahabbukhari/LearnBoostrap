@@ -1,0 +1,20 @@
+body {
+    background: url(back.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.rowHeight {
+    height: 40vh;
+    /* background-color: #000; */
+}
+.moto {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    background-color: ivory;
+    opacity: 0.5;
+    color: #2c3e50;
+}
+.im {
+    opacity: 0.9;
+    height: 300px;
+    /* width: 200px; */
+}

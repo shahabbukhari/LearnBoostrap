@@ -1,0 +1,24 @@
+body {
+    background: url(back2.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+.hero {
+    margin-top: 1em;
+    line-height: 1em;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Bowlby One SC', cursive; */
+    /* font-family: 'Fredoka One', cursive; */
+}
+.im {
+    width: 400px;
+    height: 220px;
+    border-radius: 100px;
+    
+}

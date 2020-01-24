@@ -1,0 +1,35 @@
+*{
+    font-size: 17.5px;
+}
+.con{
+    height: 300vh;
+    background-color: aqua;
+}
+
+/* Navbar */
+.logo{
+    font-weight: bold;
+    color: #ff8b00;
+    font-size: 1.3rem;
+}
+
+/* Slider */
+.carousel-caption{
+    margin: 170px auto;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+.Colcontent {
+    /* padding: 45px; */
+    /* margin-left: 92px; */
+    color: #939393;
+}
+.Colcontent h1 {
+    margin-bottom: 20px;
+}
+.Colcontent p {
+    line-height: 35px;
+}
